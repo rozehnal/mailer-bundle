@@ -10,10 +10,29 @@ class FileConsumer implements ConsumerInterface
 {
 
     /**
+     * @var string
+     */
+    private $dirname;
+
+    public function __construct($dirname)
+    {
+
+        $this->dirname = $dirname;
+    }
+    /**
      * @return MessageInterface
      */
     public function get()
     {
-        // TODO: Implement get() method.
+        $files = glob( $this->dirname . '/*' );
+        $filename = $files[0];
+        $data = file_get_contents($filename);
+
+        /** @var MessageInterface $message */
+        $message = unserialize($data);
+
+        unlink($filename);
+
+        return $message;
     }
 }
