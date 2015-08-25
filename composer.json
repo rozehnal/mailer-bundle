@@ -1,0 +1,28 @@
+{
+  "name": "rozehnal/mailer-bundle",
+  "description": "mailing",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "´Pavel Rozehnal",
+      "email": "rozehnal@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Paro\\MailingBundle\\": "src/Paro/MailingBundle"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require": {
+    "symfony/http-kernel": "*",
+    "symfony/dependency-injection": "*"
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "*",
+    "phpunit/phpunit": "*"
+  }
+}
