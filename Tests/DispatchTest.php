@@ -1,10 +1,10 @@
 <?php
 
-namespace Paro\MailingBundle\Tests;
+namespace Paro\MailerBundle\Tests;
 
-use Paro\MailingBundle\Model\File\FileConsumer;
-use Paro\MailingBundle\Model\File\FileProducer;
-use Paro\MailingBundle\Model\Message;
+use Paro\MailerBundle\Model\File\FileConsumer;
+use Paro\MailerBundle\Model\File\FileProducer;
+use Paro\MailerBundle\Model\Message;
 
 class DispatchTest extends \PHPUnit_Framework_TestCase
 {

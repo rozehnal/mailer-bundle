@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Paro\MailingBundle\Model\File;
+namespace Paro\MailerBundle\Model\File;
 
-use Paro\MailingBundle\Model\ConsumerInterface;
-use Paro\MailingBundle\Model\MessageInterface;
+use Paro\MailerBundle\Model\ConsumerInterface;
+use Paro\MailerBundle\Model\MessageInterface;
 
 class FileConsumer implements ConsumerInterface
 {

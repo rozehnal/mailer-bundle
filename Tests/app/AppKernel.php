@@ -9,7 +9,7 @@ class AppKernel extends Kernel
     {
         return array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-            new Paro\MailingBundle\ParoMailingBundle()
+            new Paro\MailerBundle\ParoMailerBundle()
         );
     }
 

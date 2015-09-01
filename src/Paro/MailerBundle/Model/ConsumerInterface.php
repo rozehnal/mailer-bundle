@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Paro\MailingBundle\Model;
+namespace Paro\MailerBundle\Model;
 
 
 interface ConsumerInterface
