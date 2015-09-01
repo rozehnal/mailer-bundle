@@ -33,8 +33,6 @@ class DispatchTest extends \PHPUnit_Framework_TestCase
         $messageRecieved = $consumer->get();
 
 
-
-
         $this->assertTrue(true);
     }
 }
