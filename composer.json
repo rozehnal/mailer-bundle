@@ -11,13 +11,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "Paro\\MailingBundle\\": "src/Paro/MailingBundle"
+      "Paro\\MailerBundle\\": "src/Paro/MailerBundle"
     }
   },
   "require": {
-    "php": ">=5.3.3"
-  },
-  "require": {
+    "php": ">=5.3.3",
     "symfony/http-kernel": "*",
     "symfony/dependency-injection": "*"
   },
